@@ -41,7 +41,7 @@ function nameGenerate(arr) {
         tr.append(tdnum, tdName, tdyear, del)
         tbody.append(tr)
         delImg.onclick = () => {
-            tr.style.display = 'none'
+            tr.remove()
         }
     }
     btn.onclick = (event) => {
